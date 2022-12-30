@@ -1,0 +1,13 @@
+{
+  "editor.fontFamily" : "D2Coding ligature",
+  "editor.fontSize" : 14,
+  "editor.tabSize" : 2,
+  "editor.folding" : false,
+  "editor.minimap.maxColumn" : 100,
+  "editor.fontLigatures": true,
+  "editor.hover.delay": 0,
+  "html.hover.references": false,
+  "css.hover.references": false,
+  "less.hover.references": false,
+  "scss.hover.references": false
+}

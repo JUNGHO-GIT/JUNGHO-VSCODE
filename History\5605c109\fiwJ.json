@@ -1,0 +1,7 @@
+{
+    "debug.console.fontFamily": "JetBrains Mono",
+    "powershell.integratedConsole.showOnStartup": false,
+    "terminal.integrated.automationProfile.windows": {
+    
+    }
+}

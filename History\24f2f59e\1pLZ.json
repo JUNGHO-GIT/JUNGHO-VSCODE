@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": ".metadata",
+			"path": "../../../../../../../JUNGHO/10.Eclipse2/1.Workspace_(jsp)/.metadata"
+		},
+		{
+			"name": "01_html",
+			"path": "../../../../../../../JUNGHO/10.Eclipse2/1.Workspace_(jsp)/01_html"
+		},
+		{
+			"name": "1.Workspace (JSP)",
+			"path": "../../../../../../../JUNGHO/10.Vscode/Microsoft VS Code/1.Workspace (JSP)"
+		},
+		{
+			"name": "02_jsp",
+			"path": "../../../../../../../JUNGHO/10.Eclipse2/1.Workspace_(jsp)/02_jsp"
+		},
+		{
+			"name": "03_servlet",
+			"path": "../../../../../../../JUNGHO/10.Eclipse2/1.Workspace_(jsp)/03_servlet"
+		},
+		{
+			"name": "RemoteSystemsTempFiles",
+			"path": "../../../../../../../JUNGHO/10.Eclipse2/1.Workspace_(jsp)/RemoteSystemsTempFiles"
+		},
+		{
+			"name": "Servers",
+			"path": "../../../../../../../JUNGHO/10.Eclipse2/1.Workspace_(jsp)/Servers"
+		}
+	],
+	"settings": {}
+}

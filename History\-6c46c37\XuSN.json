@@ -1,0 +1,193 @@
+{
+    // [1. JAVA]----------------------------------------------------------------------------------> 
+    "java.home": "C:\\JUNGHO\\2. JAVA\\2. jdk1.8.0_351",
+    "java.configuration.runtimes": [ 
+        {
+        "name": "JavaSE-1.8",
+        "path": "C:\\JUNGHO\\2. JAVA\\3. jre1.8.0_351",
+        "default": true
+        }
+    ],
+    
+    // [2. Terminal]------------------------------------------------------------------------------->
+    "terminal.integrated.gpuAcceleration" : "off",
+    "terminal.integrated.defaultProfile.windows": "Command",
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe -nologo",
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell" : {
+            "source" : "PowerShell",
+            "icon": "terminal-powershell"
+        },
+
+        "Command Prompt": {
+            "path" : [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args" : [],
+            "icon" : "terminal-cmd"
+        },
+
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+
+        "Command": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe -nologo",
+            "args": []
+        }
+    },
+    
+    // [3. Debug]
+    "debug.console.fontFamily": "D2Coding ligature",
+    
+    // [3. Workbench]
+    "workbench.experimental.settingsProfiles.enabled" : true,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorCustomizations": {},
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme" : "material-icon-theme",
+    "workbench.editor.untitled.hint" : "hidden",
+    "workbench.editorAssociations": {"*.html": "default"},
+    "workbench.sash.hoverDelay": 0,
+    
+    // [4. launch]
+    "launch" : {
+        "configurations" : [],
+        "compounds" : []
+    },
+    
+    // [5. Explorer]
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete" : false,
+    
+    // [6. Editor]
+    "editor.fontFamily": "D2Coding ligature",
+    "editor.codeLensFontFamily" : "D2Coding ligature",
+    "editor.inlayHints.fontFamily": "D2Coding ligature",
+    "editor.rulers": [100],
+    "editor.minimap.maxColumn": 100,
+    "editor.tabSize" : 2,
+    "editor.folding": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation" : true,
+    "editor.fontLigatures": true,
+    "editor.linkedEditing" : true,
+    "editor.tokenColorCustomizations": 
+        {"comments": "#c7dd0c"},
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.hover.delay": 500,
+    "editor.indentSize": "tabSize",
+    "editor.padding.top": 1,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.accessibilityPageSize": 500,
+    "editor.renderWhitespace": "none",
+    "editor.acceptSuggestionOnEnter": "smart",
+    
+    // [7. Windows]
+    "window.autoDetectColorScheme" : true,
+    "window.commandCenter": true,
+    
+    // [8. File]
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.html" : "html",
+        "*.java" : "java",
+        "*.xml"  : "xml",
+        "*.js"   : "javascript",
+        "*.ts"   : "typescript",
+        "*.php"  : "php",
+        "*.css"  : "css"
+    },
+    
+    // [10. Security]
+    "security.workspace.trust.untrustedFiles" : "open",
+    
+    // [11. Etc]
+    "liveServer.settings.donotShowInfoMsg": true,
+    
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    
+    "cSpell.userWords": [
+        "nologo",
+        "sidemenu"
+    ],
+    
+    "[html]" : {
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    
+    "workbench.hover.delay": 0,
+    
+
+    
+    "commentTranslate.targetLanguage": "ko",
+    "commentTranslate.hover.string": true,
+    "commentTranslate.hover.variable": true,
+    "commentTranslate.ignore": [
+        {
+        "languageId": "javascript,typescript,javascriptreact,typescriptreact",
+        "regular": "[\\*\\s]+"
+        
+        "languageId": "dart",
+        "regular": "[\\s|/]+"
+        }
+    ],
+    
+    "prettier.printWidth": 100,
+    "prettier.useTabs": true,
+    "prettier.semi": false,
+    "prettier.requireConfig": true,
+    
+    "html.format.wrapLineLength": 100,
+    "html.format.wrapAttributes": "force",
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100
+    },
+    
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceDownload": true,
+    "prettier.proseWrap": "always",
+    "cSpell.ignoreWords": ["UTF"],
+    
+
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeActionsOnSave.rules": null,
+    "workbench.tree.renderIndentGuides": "none",
+}

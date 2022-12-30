@@ -1,0 +1,15 @@
+{
+  "java.dependency.packagePresentation": "hierarchical",
+  "java.project.referencedLibraries": {
+    "include": [
+      "lib/**/*.jar",
+      "C:\\JUNGHO\\7.Tomcat2\\lib",
+      "02_jsp\\lib\\mysql-connector-java-5.0.8-bin.jar",
+      "02_jsp\\lib\\ojdbc6.jar"
+    ],
+    "exclude": [
+      "c:\\JUNGHO\\DRIVER\\mysql-connector-java-5.0.8-bin.jar",
+      "c:\\JUNGHO\\DRIVER\\ojdbc6.jar"
+    ]
+  }
+}

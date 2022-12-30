@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": 
+  [
+
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "VScode_239d97ac"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java Program",
+      "request": "launch",
+      "mainClass": "${fileBasename}"
+    }
+  ]
+}

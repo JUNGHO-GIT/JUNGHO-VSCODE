@@ -1,0 +1,7 @@
+{
+  "name": "Launch Chrome",
+  "request": "launch",
+  "type": "java",
+  "url": "http://localhost:8080/${fileBasename}",
+  "webRoot": "${workspaceFolder}"
+}

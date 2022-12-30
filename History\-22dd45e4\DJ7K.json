@@ -1,0 +1,11 @@
+{
+  "configurations": [
+  {
+    "name": "Launch jsp",
+    "request": "launch",
+    "type": "chrome",
+    "url": "http://localhost:9000/ch01/${fileBasename}",
+    "webRoot": "${workspaceFolder}"
+  }
+  ]
+}

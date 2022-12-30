@@ -1,0 +1,11 @@
+{
+  "java.dependency.syncWithFolderExplorer": true,
+  "editor.minimap.maxColumn": 100,
+  "editor.minimap.enabled": false,
+  "java.project.sourcePaths": [
+    "01_html/src",
+    "03_servlet/src"
+  ],
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.dependency.packagePresentation": "hierarchical",
+}

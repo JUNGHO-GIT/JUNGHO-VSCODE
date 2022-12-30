@@ -1,0 +1,16 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ],
+  "commentTranslate.targetLanguage": "ko",
+  "prettier.printWidth": 100,
+  "commentTranslate.hover.string": false,
+  "commentTranslate.hover.variable": false,
+  "editor.tabCompletion": "on",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.gist": "VScode",
+  "sync.removeExtensions": false,
+  "sync.syncExtensions": false
+}

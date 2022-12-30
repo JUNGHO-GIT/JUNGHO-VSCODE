@@ -1,0 +1,13 @@
+{
+  "args.override.boolean": "false",
+  "args.program.override.string": "start",
+  "args.vm.override.string": "-Djava.util.logging.config.file=/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dcatalina.base= -Dcatalina.home=c:\\JUNGHO\\7.Tomcat2 -Djava.io.tmpdir=/temp",
+  "id": "Tomcat 9.x (1)",
+  "id-set": "true",
+  "org.jboss.tools.rsp.server.typeId": "org.jboss.ide.eclipse.as.server.tomcat.90",
+  "server.base.dir": "c:\\JUNGHO\\7.Tomcat2",
+  "server.deploy.dir": "${server.base.dir}/webapps/",
+  "server.home.dir": "c:\\JUNGHO\\7.Tomcat2",
+  "server.http.host": "localhost",
+  "server.http.port": "8088"
+}

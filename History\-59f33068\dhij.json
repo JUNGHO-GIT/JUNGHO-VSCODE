@@ -1,0 +1,7 @@
+{
+  "id": "Tomcat 8.5",
+  "id-set": "true",
+  "org.jboss.tools.rsp.server.typeId": "org.jboss.ide.eclipse.as.server.tomcat.85",
+  "server.deploy.dir": "${server.base.dir}/webapps/",
+  "server.home.dir": "c:\\JUNGHO\\7.Tomcat",
+}

@@ -1,0 +1,62 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Test02",
+      "request": "launch",
+      "mainClass": "ch02.Datatype.Test02",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch Test01",
+      "request": "launch",
+      "mainClass": "ch02.Datatype.Test01",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch ch02",
+      "request": "launch",
+      "mainClass": "ch02.Datatype.ch02",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch Test100",
+      "request": "launch",
+      "mainClass": "ch02.Datatype.Test100",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch Test04",
+      "request": "launch",
+      "mainClass": "ch02.Datatype.Test04",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "myutil.App",
+      "projectName": "02_jsp"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "main.java.App"
+    }
+  ]
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+}

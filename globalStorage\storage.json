@@ -1,0 +1,51 @@
+{
+    "telemetry.machineId": "87eb1f95e4b68b1e11384efc2528d6c44ae3df2f153d2acb7bb51353f750b3b3",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///c%3A/JUNGHO/10.Vscode/Microsoft%20VS%20Code/2.work_jsp"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///c%3A/JUNGHO/10.Vscode/Microsoft%20VS%20Code/2.work_jsp",
+            "backupPath": "C:\\Users\\jungh\\AppData\\Roaming\\Code\\Backups\\9df405259b29c77ace971e4bae85e9d4",
+            "uiState": {
+                "mode": 0,
+                "x": 296,
+                "y": 44,
+                "width": 1072,
+                "height": 808
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 30
+}

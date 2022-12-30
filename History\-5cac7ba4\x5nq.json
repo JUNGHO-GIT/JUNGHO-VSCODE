@@ -1,0 +1,7 @@
+{
+  "java.dependency.packagePresentation": "hierarchical",
+  "java.project.sourcePaths": [
+    "1.java_work/src/main/java",
+    "1.java_work/src"
+  ]
+}

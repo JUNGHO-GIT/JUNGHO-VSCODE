@@ -1,0 +1,15 @@
+{
+  "editor.fontFamily" : "D2Coding ligature",
+  "editor.fontSize" : 14,
+  "editor.tabSize" : 2,
+  "editor.folding" : false,
+  "editor.minimap.maxColumn" : 100,
+  "editor.fontLigatures": true,
+  "editor.hover.delay": 500,
+  "html.hover.references": true,
+  "css.hover.references": true,
+  "less.hover.references": true,
+  "scss.hover.references": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "typescript.format.insertSpaceAfterConstructor": true
+}

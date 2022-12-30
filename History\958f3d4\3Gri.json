@@ -1,0 +1,597 @@
+[
+	// 1.[Shift + Alt]------------------------------------------------------------------------------->
+
+	// [cut]
+	{
+		"key": "shift+alt+a",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+b",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [commend]
+	{
+		"key": "shift+alt+c",
+		"command": "editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+
+	// [cut]
+	{
+		"key": "shift+alt+d",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+e",
+		"command": "workbench.view.explorer",
+		"when": "viewContainer.workbench.view.explorer.enabled"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+f",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+g",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+h",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+i",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+j",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+k",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+l",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [create new folder]
+	{
+		"key": "shift+alt+m",
+		"command": "explorer.newFolder"
+	},
+	
+	// [create new file]
+	{
+		"key": "shift+alt+n",
+		"command": "workbench.action.terminal.new"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+o",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+p",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [run without debugging]
+	{
+		"key": "shift+alt+q",
+		"command": "workbench.action.debug.run",
+		"when": "debuggersAvailable && debugState != 'initializing'"
+	},
+	
+	// [rename]
+	{
+		"key": "shift+alt+r",
+		"command": "renameFile || workbench.profiles.actions.renameProfile"
+	},
+	
+	// [saveAll]
+	{
+		"key": "shift+alt+s",
+		"command": "workbench.action.files.saveAll"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+t",
+		"command": "workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+	},
+	
+	// [output]
+	{
+		"key": "shift+alt+u",
+		"command": "workbench.action.output.toggleOutput",
+		"when": "workbench.panel.output.active"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+v",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [close all]
+	{
+		"key": "shift+alt+w",
+		"command": "workbench.action.closeAllEditors"
+	},
+	
+	// [shortcut]
+	{
+		"key": "shift+alt+x",
+		"command": "workbench.action.openGlobalKeybindings"
+	},
+	
+	// [cut]
+	{
+		"key": "shift+alt+y",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [redo]
+	{
+		"key": "shift+alt+z",
+		"command": "redo"
+	},
+
+	// [settings]
+	{
+		"key": "shift+alt+1",
+		"command": "-workbench.action.moveEditorToFirstGroup"
+	},
+
+	// [settings json]
+	{
+		"key": "shift+alt+2",
+		"command": "workbench.action.openSettingsJson"
+	},
+
+	// [user snippets]
+	{
+		"key": "shift+alt+3",
+		"command": "workbench.action.openSnippets"
+	},
+
+	// [launch json]
+	{
+		"key": "shift+alt+4",
+		"command": "workbench.action.debug.configure"
+	},
+	
+	// [terminal]
+	{
+		"key": "shift+alt+5",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+
+	// [suggest pre]
+	{
+		"key": "shift+alt+left",
+		"command": "editor.action.inlineSuggest.showPrevious",
+		"when": "inlineSuggestionVisible && !editorReadonly"
+	},
+	
+
+	// 2.[Alt]--------------------------------------------------------------------------------------->
+	
+	// [cut]
+	{
+		"key": "alt+a",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+b",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+c",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+d",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+e",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+f",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+g",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+h",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+i",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+j",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+k",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+l",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+m",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+n",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+o",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+p",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [debug]
+	{
+		"key": "alt+q",
+  	"command": "workbench.action.debug.start",
+  	"when": "debuggersAvailable && debugState == 'inactive'"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+r",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+s",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+t",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+u",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+v",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+w",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+x",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+y",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "alt+z",
+		"command": "redo",
+		"when": "!editorFocus"
+	},
+
+	// 3.[Ctrl]-------------------------------------------------------------------------------------->
+	
+	// [cut]
+	{
+		"key": "ctrl+a",
+  	"command": "editor.action.selectAll"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+b",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [copy]
+	{
+		"key": "crtl+c",
+		"command": "editor.action.clipboardCopyAction"
+	},
+	
+	// [delete]
+	{
+		"key": "crtl+d",
+		"command": "deleteFile"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+e",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [find]
+	{
+		"key": "ctrl+f",
+		"command": "actions.find",
+		"when": "editorFocus || editorIsOpen"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+g",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [replace]
+	{
+		"key": "ctrl+h",
+  	"command": "editor.action.startFindReplaceAction",
+  	"when": "editorFocus || editorIsOpen"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+i",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+j",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+k",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+l",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+m",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+n",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+o",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+p",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+q",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+r",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [save]
+	{
+		"key": "",
+  	"command": "workbench.action.files.save"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+t",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+u",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [paste]
+	{
+		"key": "ctrl+v",
+		"command": "editor.action.clipboardPasteAction"
+	},
+	
+	// [close]
+	{
+		"key": "ctrl+w",
+  	"command": "workbench.action.closeActiveEditor"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+x",
+		"command": "-editor.action.clipboardCutAction"
+	},
+	
+	// [cut]
+	{
+		"key": "crtl+y",
+		"command": "-revealFileInOS",
+		"when": "!editorFocus"
+	},
+	
+	// [undo]
+	{
+		"key": "ctrl+z",
+		"command": "undo"
+	},
+
+	// 4.[ETC]--------------------------------------------------------------------------------------->
+	
+	// [backspace]
+	{
+		"key": "backspace",
+		"command": "-deleteLeft",
+		"when": "textInputFocus"
+	},
+
+
+
+
+
+
+
+
+
+
+
+]

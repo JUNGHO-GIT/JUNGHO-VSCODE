@@ -1,0 +1,9 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ],
+  "commentTranslate.targetLanguage": "ko",
+  "prettier.printWidth": 100,
+  "commentTranslate.hover.string": false,
+  "commentTranslate.hover.variable": false
+}

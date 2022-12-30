@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch asdfasdf",
+      "request": "launch",
+      "mainClass": "asdfasdf",
+      "projectName": "VScode_ca8ad732"
+    },
+    {
+      "type": "java",
+      "name": "Launch jungho",
+      "request": "launch",
+      "mainClass": "jungho",
+      "projectName": "VScode_ca8ad732"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "VScode_ca8ad732"
+    },
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java Program",
+      "request": "launch",
+      "mainClass": "${fileBasename}"
+    }
+  ]
+}

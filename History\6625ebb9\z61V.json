@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": 
+  [
+    {
+      "type": "chrome",
+      "name": "Launch Chrome",
+      "request": "launch",
+      "url": "http://localhost:8099",
+      "webRoot": "${workspaceFolder}"
+    },
+    
+    {
+      "type": "java",
+      "name": "Launch Java Program",
+      "request": "launch",
+      "mainClass": "${fileBasename}"
+    },
+
+    {
+      "type": "jsp",
+      "name": "Launch Chrome",
+      "request": "launch",
+      "mainClass": "${fileBasename}"
+    }
+  ]
+}

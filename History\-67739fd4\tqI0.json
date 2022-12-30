@@ -1,0 +1,8 @@
+{
+  "java.dependency.packagePresentation": "hierarchical",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "c:\\JUNGHO\\DRIVER\\mysql-connector-java-5.0.8-bin.jar",
+    "c:\\JUNGHO\\DRIVER\\ojdbc6.jar"
+  ]
+}

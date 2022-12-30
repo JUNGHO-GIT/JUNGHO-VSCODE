@@ -1,0 +1,171 @@
+{
+
+
+	// 0. 양식----------------------------------------------------------------------------------------
+	
+	"java"   : {
+	"scope"  : "java, jsp, ts, js, html, html5, css, xml, javascript, typescript, python,
+							org, com, kotlin",
+	"prefix" : "java",
+	"body"   : "package ${package_name}"
+	},
+
+	"html"   : {
+	"scope"  : 	"java, jsp, ts, js, html, html5, css, xml, javascript, typescript, python,
+	org, com, kotlin",
+	"prefix" : "html",
+	"body"   : ["<!doctype html>\n<html>\n\n<!--[Head]----------------------------------------------------------------------------------------->\n\t<head>\n\t\t<meta charset=UTF-8>\n\t\t<title> ${cursor} </title>\n\t</head>\n\n<!--[Body]----------------------------------------------------------------------------------------->\n\t<body>\n\n\t</body>\n\n</html>"]
+	},
+
+	"css"    : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "css",
+	"body"   : "@charset UTF-8;\n\nheader {\n\t${cursor}\n}\n\nbody {\n\n}\n\narticle {\n\n}"
+	},
+
+	"xml"    : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "xml",
+	"body"   : "<?xml version=1.0 encoding=UTF-8?>\n\n${cursor}"
+	},
+
+
+
+	// 1. 주석----------------------------------------------------------------------------------------
+			
+	"cl"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "cl",
+	"body"   : "// [Class ${cursor}]--------------------------------------------------------------------->"
+	},
+
+	"og"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "og",
+	"body"   : "// [Overriding ${cursor}]--------------------------------------------------------------------->"
+	},
+
+	"od"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "od",
+	"body"   : "// [Override ${cursor}]--------------------------------------------------------------------->"
+	},
+
+	"me" : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "me",
+	"body"   : "// [Method ${cursor}]--------------------------------------------------------------------->"
+	},
+
+	"ma"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "ma",
+	"body"   : "// [Method Main]--------------------------------------------------------------------------------->"
+	},
+
+	"co"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "co",
+	"body"   : "// [Constructor]--------------------------------------------------------------------------------->"
+	},
+
+	"gl"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "gl",
+	"body"   : "// [Global]-------------------------------------------------------------------------------------->"
+	},
+
+	"lo"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "lo",
+	"body"   : "// [Local]--------------------------------------------------------------------------------------->"
+	},
+
+	"head"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "head",
+	"body"   : "<!--[Head]----------------------------------------------------------------------------------------->"
+	},
+
+	"body"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "body",
+	"body"   : "<!--[Body]----------------------------------------------------------------------------------------->"
+	},
+
+	
+
+	// 2. 문법----------------------------------------------------------------------------------------
+
+	"main"   : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "main",
+	"body"   : "public static void main(String[] args) {\n${cursor}\n}"
+	},
+	
+	"for"    : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "for",
+	"body"   : "for (int i=0; i<${cursor}; i++) {\n\n}"
+	},
+	
+	"if"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "if",
+	"body"   : "if (${cursor}) {\n\n}"
+	},
+
+	"elseif" : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "else if",
+	"body"   : "else if (${cursor}) {\n\n}"
+	},
+
+	"while"  : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "while",
+	"body"   : "while (${cursor}) {\n\n}"
+	},
+				
+	"switch" : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "switch",
+	"body"   : "switch {\ncase : ${cursor}\n\tbreak;\n}"
+	},
+
+	"case"   : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "case",
+	"body"   : "case : ${cursor}\n\tbreak;\n}"
+	},
+
+	"try"    : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "try",
+	"body"   : "try {\n\n}\ncatch (${cursor}) {\n\n}"
+	},
+
+	"so"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "so",
+	"body"   : "System.out.println(${cursor});"
+	},
+
+	"st"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "st",
+	"body"   : "System.out.print(${cursor});"
+	},
+
+	"sf"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "sf",
+	"body"   : "System.out.printf(${cursor});"
+	},
+
+	"se"     : {
+	"scope"  : "java, html, html5, css, xml, javascript, typescript, python, org, com, kotlin",
+	"prefix" : "se",
+	"body"   : "System.exit(0);${cursor}"
+	},
+}

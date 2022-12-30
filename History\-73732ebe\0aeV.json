@@ -1,0 +1,240 @@
+{
+	"folders": [
+		{
+			"name": "VScode",
+			"path": "C:/JUNGHO/10.VScode/VScode"
+		}
+	],
+	"settings": {
+		"java.home": "C:\\JUNGHO\\2.JAVA\\1.jdk-19",
+		"java.configuration.runtimes": [
+			{
+				"name": "JavaSE-1.8",
+				"path": "C:\\JUNGHO\\2.JAVA\\2.jdk1.8.0_351"
+			},
+			{
+				"name": "JavaSE-19",
+				"path": "C:\\JUNGHO\\2.JAVA\\1.jdk-19",
+				"default": true
+			}
+		],
+		"java.jdt.ls.java.home": "C:\\JUNGHO\\2.JAVA\\1.jdk-19",
+		"terminal.integrated.gpuAcceleration": "off",
+		"terminal.integrated.defaultProfile.windows": "Command",
+		"terminal.integrated.profiles.windows": {
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": [
+					"${env:windir}\\System32\\cmd.exe"
+				],
+				"args": [],
+				"icon": "terminal-cmd"
+			},
+			"Git Bash": {
+				"source": "Git Bash"
+			},
+			"Command": {
+				"path": "C:\\WINDOWS\\System32\\cmd.exe",
+				"args": []
+			}
+		},
+		"debug.console.fontFamily": "D2Coding ligature",
+		"workbench.activityBar.visible": false,
+		"workbench.editor.enablePreview": false,
+		"workbench.colorCustomizations": {},
+		"workbench.startupEditor": "none",
+		"workbench.iconTheme": "vscode-icons",
+		"workbench.editor.untitled.hint": "hidden",
+		"workbench.editorAssociations": {
+			"*.html": "default"
+		},
+		"workbench.sash.hoverDelay": 0,
+		"workbench.tree.renderIndentGuides": "none",
+		"workbench.hover.delay": 0,
+		"launch": {
+			"configurations": [],
+			"compounds": []
+		},
+		"explorer.confirmDragAndDrop": false,
+		"explorer.confirmDelete": false,
+		"editor.fontFamily": "D2Coding ligature",
+		"editor.codeLensFontFamily": "D2Coding ligature",
+		"editor.inlayHints.fontFamily": "D2Coding ligature",
+		"editor.rulers": [
+			100
+		],
+		"editor.minimap.maxColumn": 100,
+		"editor.tabSize": 2,
+		"editor.folding": false,
+		"editor.stickyScroll.enabled": true,
+		"editor.minimap.enabled": false,
+		"editor.detectIndentation": true,
+		"editor.fontLigatures": true,
+		"editor.linkedEditing": true,
+		"editor.tokenColorCustomizations": {
+			"comments": "#c7dd0c"
+		},
+		"editor.hideCursorInOverviewRuler": true,
+		"editor.hover.delay": 500,
+		"editor.indentSize": "tabSize",
+		"editor.padding.top": 1,
+		"editor.guides.highlightActiveBracketPair": true,
+		"editor.guides.highlightActiveIndentation": "always",
+		"editor.guides.bracketPairs": "active",
+		"editor.guides.bracketPairsHorizontal": "active",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.wordWrapColumn": 100,
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.accessibilityPageSize": 500,
+		"editor.renderWhitespace": "none",
+		"editor.acceptSuggestionOnEnter": "smart",
+		"window.autoDetectColorScheme": true,
+		"window.commandCenter": true,
+		"files.autoSave": "afterDelay",
+		"files.associations": {
+			"*.html": "html",
+			"*.java": "java",
+			"*.xml": "xml",
+			"*.js": "javascript",
+			"*.ts": "typescript",
+			"*.php": "php",
+			"*.css": "css"
+		},
+		"prettier.printWidth": 100,
+		"prettier.useTabs": true,
+		"prettier.semi": false,
+		"prettier.requireConfig": true,
+		"prettier.proseWrap": "always",
+		"html.format.wrapLineLength": 100,
+		"html.format.wrapAttributes": "force",
+		"[markdown]": {
+			"editor.wordWrap": "wordWrapColumn",
+			"editor.wordWrapColumn": 100
+		},
+		"sync.autoDownload": true,
+		"sync.autoUpload": true,
+		"sync.forceDownload": true,
+		"eslint.alwaysShowStatus": true,
+		"eslint.codeActionsOnSave.rules": null,
+		"cSpell.ignoreWords": [
+			"UTF"
+		],
+		"cSpell.userWords": [
+			"esbenp",
+			"JUNGHO",
+			"nologo",
+			"runtimes",
+			"sidemenu",
+			"windir"
+		],
+		"commentTranslate.targetLanguage": "ko",
+		"commentTranslate.hover.string": true,
+		"commentTranslate.hover.variable": true,
+		"commentTranslate.ignore": [
+			{
+				"languageId": "javascript,typescript,javascriptreact,typescriptreact",
+				"regular": "[\\*\\s]+"
+			},
+			{
+				"languageId": "dart",
+				"regular": "[\\s|/]+"
+			}
+		],
+		"highlight-matching-tag.highlightFromContent": true,
+		"highlight-matching-tag.highlightSelfClosing": true,
+		"highlight-matching-tag.noDefaultEmptyElements": true,
+		"highlight-matching-tag.customEmptyElements": [],
+		"highlight-matching-tag.styles": {
+			"opening": {
+				"left": {
+					"underline": "yellow"
+				},
+				"right": {
+					"underline": "yellow"
+				},
+				"full": {
+					"underline": "yellow"
+				}
+			},
+			"closing": {
+				"left": {
+					"underline": "yellow"
+				},
+				"right": {
+					"underline": "yellow"
+				},
+				"full": {
+					"underline": "yellow"
+				}
+			}
+		},
+		"liveServer.settings.donotShowInfoMsg": true,
+		"[jsonc]": {
+			"editor.defaultFormatter": "vscode.json-language-features"
+		},
+		"[html]": {
+			"editor.suggest.insertMode": "replace",
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"auto-close-tag.activationOnLanguage": [
+			"xml",
+			"php",
+			"blade",
+			"ejs",
+			"jinja",
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"typescriptreact",
+			"plaintext",
+			"markdown",
+			"vue",
+			"liquid",
+			"erb",
+			"lang-cfml",
+			"cfml",
+			"HTML (EEx)",
+			"HTML (Eex)",
+			"plist"
+		],
+		"cSpell.enableFiletypes": [
+			"code-text-binary",
+			"java-properties",
+			"jsp",
+			"jsx-tags"
+		],
+		"java.dependency.showMembers": true,
+		"debug.terminal.clearBeforeReusing": true,
+		"explorer.compactFolders": false,
+		"notebook.compactView": false,
+		"java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+		"java.compile.nullAnalysis.nonnull": [
+			"javax.annotation.Nonnull",
+			"org.eclipse.jdt.annotation.NonNull",
+			"org.springframework.lang.NonNull"
+		],
+		"redhat.telemetry.enabled": true,
+		"rsp-ui.enableStartServerOnActivation": [
+			{
+				"id": "redhat.vscode-community-server-connector",
+				"name": "Community Server Connector",
+				"startOnActivation": true
+			}
+		],
+		"java.eclipse.downloadSources": true,
+		"maven.excludedFolders": [
+			"**/.*",
+			"**/node_modules",
+			"**/target",
+			"**/bin",
+			"**/archetype-resources"
+		],
+		"[java]": {
+			"editor.defaultFormatter": "redhat.java"
+		},
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}

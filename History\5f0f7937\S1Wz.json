@@ -1,0 +1,8 @@
+{
+  "editor.fontFamily" : "D2Coding ligature",
+  "editor.fontSize" : 14,
+  "editor.tabSize" : 2,
+  "editor.folding" : false,
+  "editor.minimap.maxColumn" : 100,
+  "editor.fontLigatures" : true
+}

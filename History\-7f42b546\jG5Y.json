@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Worksapce",
+			"path": "C:/Program Files/VScode/Microsoft VS Code/Worksapce"
+		}
+	],
+	"settings": {
+		"java.dependency.packagePresentation": "hierarchical"
+	}
+}

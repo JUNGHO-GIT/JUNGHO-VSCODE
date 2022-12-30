@@ -1,0 +1,217 @@
+{
+  // 1.java-------------------------------------------------------------------------------------->
+  "java.jdt.ls.java.home": "C:\\JUNGHO\\2.JAVA\\1.jdk-19",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-19",
+      "path": "C:\\JUNGHO\\2.JAVA\\1.jdk-19",
+      "default": false,
+    },
+    {
+        "name": "JavaSE-1.8",
+        "path": "C:\\JUNGHO\\2.JAVA\\3.jre1.8.0_40",
+        "default": true,
+      },
+  ],
+  "rsp-ui.rsp.java.home": "C:\\JUNGHO\\2.JAVA\\2.jdk1.8.0_40",
+  "xml.java.home": "C:\\JUNGHO\\2.JAVA\\2.jdk1.8.0_40",
+  "java.project.referencedLibraries": ["C:\\JUNGHO\\2.JAVA\\2.jdk1.8.0_40"],
+  "java.eclipse.downloadSources": true,
+  "java.import.generatesMetadataFilesAtProjectRoot": true,
+  "java.maven.downloadSources": true,
+  
+
+  // 2.editor------------------------------------------------------------------------------------>
+  "editor.fontFamily": "D2Coding ligature",
+  "editor.tabSize": 2,
+  "editor.inlayHints.enabled": false,
+  "editor.codeLensFontFamily": "D2Coding ligature",
+  "editor.inlayHints.fontFamily": "D2Coding ligature",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [100],
+  "editor.tokenColorCustomizations": {
+      "comments": "#FFFF00",
+  },
+  "editor.minimap.maxColumn": 100,
+  "editor.wordWrapColumn": 100,
+  "editor.wordWrap": "wordWrapColumn",
+
+
+  // 3.explorer---------------------------------------------------------------------------------->
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  
+  // 4.workbench--------------------------------------------------------------------------------->
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.visible": false,
+  "workbench.colorCustomizations": {
+      "editorIndentGuide.activeBackground": "#ffff00",
+      "editorIndentGuide.background": "#ffffff80",
+      "editorBracketMatch.border": "#ffffff",
+  },
+
+
+  // 5.intelli----------------------------------------------------------------------------------->
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "vsintellicode.modelDownloadPath": "C:\\JUNGHO\\10.Vscode\\Microsoft VS Code\\Intellisense",
+  "tabnine.experimentalAutoImports": true,
+
+
+  // 6.server------------------------------------------------------------------------------------>
+  "rsp-ui.enableStartServerOnActivation": [
+      {
+          "id": "redhat.vscode-community-server-connector",
+          "name": "Community Server Connector",
+          "startOnActivation": true
+      },
+      {
+          "id": "redhat.vscode-server-connector",
+          "name": "Red Hat Server Connector",
+          "startOnActivation": true
+      }
+  ],
+
+
+  // 7.prettier---------------------------------------------------------------------------------->
+  "prettier.configPath": "C:\\\\JUNGHO\\\\10.Vscode\\\\Microsoft VS Code\\\\prettier",
+  "prettier.prettierPath": "C:\\\\JUNGHO\\\\10.Vscode\\\\Microsoft VS Code\\\\prettier",
+  "prettier.printWidth": 100,
+  "prettier.useTabs": true,
+  "prettier.bracketSameLine": true,
+
+
+  // 8.file-------------------------------------------------------------------------------------->
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+      "*.jsp": "jsp"
+  },
+
+
+  // 0.cspell------------------------------------------------------------------------------------>
+  "cSpell.language": "en,lorem",
+  "cSpell.userWords": [
+      "intelli",
+      "JUNGHO",
+      "println",
+      "tabnine",
+      "vsintellicode"
+  ],
+  "cSpell.enableFiletypes": [
+      "Log",
+      "bat",
+      "bibtex",
+      "clojure",
+      "code-runner-output",
+      "code-text-binary",
+      "coffeescript",
+      "cpp_embedded_latex",
+      "cuda-cpp",
+      "dart",
+      "diff",
+      "dockercompose",
+      "dockerfile",
+      "dtd",
+      "fsharp",
+      "git-rebase",
+      "groovy",
+      "hlsl",
+      "ignore",
+      "ini",
+      "java-properties",
+      "jsp",
+      "jsx-tags",
+      "julia",
+      "juliamarkdown",
+      "log",
+      "lua",
+      "makefile",
+      "markdown-math",
+      "markdown_latex_combined",
+      "objective-c",
+      "objective-cpp",
+      "perl",
+      "perl6",
+      "powershell",
+      "properties",
+      "r",
+      "razor",
+      "rnc",
+      "ruby",
+      "search-result",
+      "shaderlab",
+      "shellscript",
+      "sql",
+      "tailwindcss",
+      "tex",
+      "vb",
+      "xml",
+      "xquery",
+      "xsl"
+  ],
+  
+
+  // 0.highlight--------------------------------------------------------------------------------->
+  "highlight-matching-tag.highlightFromContent": true,
+  "highlight-matching-tag.highlightSelfClosing": true,
+  "highlight-matching-tag.styles": {
+      "opening": {
+          "name": {"underline": "yellow"},
+          "right": {"underline": "yellow"},
+          "left": {"underline": "yellow"},
+          "full": {"underline": "yellow"}
+      },
+      "closing": {
+          "name": {"underline": "yellow"},
+          "right": {"underline": "yellow"},
+          "left": {"underline": "yellow"},
+          "full": {"underline": "yellow"}
+      },
+      "inner": {
+          "name": {"underline": "yellow"},
+          "right": {"underline": "yellow"},
+          "left": {"underline": "yellow"},
+          "full": {"underline": "yellow"}
+      }
+  },
+
+
+  // 0.translate--------------------------------------------------------------------------------->
+  "commentTranslate.targetLanguage": "ko",
+  "commentTranslate.ignore": [
+      {
+          "languageId": "javascript,typescript,javascriptreact,typescriptreact",
+          "regular": "[\\*\\s]+"
+      },
+      {
+          "languageId": "dart",
+          "regular": "[\\s|/]+"
+      }
+  ],
+
+
+  // 0.etc--------------------------------------------------------------------------------------->
+  "open-in-browser.default": "google-chrome",
+  "redhat.telemetry.enabled": false,
+  "audioCues.onDebugBreak": "off",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "[xml]": { "editor.defaultFormatter": "DotJoshJohnson.xml" },
+  "terminal.integrated.fontSize": 14,
+  "yaml.format.printWidth": 100,
+  "cSpell.numSuggestions": 4,
+  "cSpell.suggestionMenuType": "quickFix",
+  "cSpell.suggestionNumChanges": 4,
+  "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+  "intellicodeCompletions.loggingLevel": "INFO",
+  "tailwindCSS.rootFontSize": 14,
+  "extensions.supportUntrustedWorkspaces": {
+  
+  },
+  "editor.folding": false,
+  "editor.showFoldingControls": "never",
+  "notebook.showFoldingControls": "never",
+}
